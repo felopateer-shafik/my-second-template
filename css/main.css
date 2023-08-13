@@ -3,6 +3,7 @@
 :root {
     --main-color: #19c8fa;
     --transparent-color: rgb(15 116 143 / 55%);
+    --secondry-font-color: #777;
     --section-padding: 100px;
 }
 
@@ -51,6 +52,11 @@ a {
     text-align: center;
 }
 
+.main-padding {
+    padding-top: var(--section-padding);
+    padding-bottom: var(--section-padding);
+}
+
 .main-heading h2 {
     font-weight: normal;
     font-size: 40px;
@@ -88,7 +94,7 @@ a {
     margin: 0 auto 100px;
     max-width: 100%;
     line-height: 2;
-    color: #777;
+    color: var(--secondry-font-color);
 }
 
 
@@ -171,7 +177,7 @@ header nav .form i:hover {
     color: var(--main-color);
 }
 
-header nav ul li a:active,
+header nav ul li a.active,
 header nav ul li a:hover {
     color: var(--main-color);
     border-bottom: 1px solid var(--main-color);
@@ -265,11 +271,6 @@ header nav ul li a:hover {
 
 /* Services */
 
-.services {
-    padding-top: var(--section-padding);
-    padding-bottom: var(--section-padding);
-}
-
 .services .srv-box {
     display: flex;
 }
@@ -285,15 +286,13 @@ header nav ul li a:hover {
 
 .services .srv-box p {
     line-height: 2;
-    color: #777;
+    color: var(--secondry-font-color);
 }
 
 
 /* Design */
 
 .design {
-    padding-top: var(--section-padding);
-    padding-bottom: var(--section-padding);
     height: 600px;
     position: relative;
     background-image: url("../images/design-features.jpg");
@@ -356,11 +355,6 @@ header nav ul li a:hover {
 
 
 /* Protfolio */
-
-.portfolio {
-    padding-top: var(--section-padding);
-    padding-bottom: var(--section-padding);
-}
 
 .portfolio .container .filter {
     display: flex;
@@ -511,8 +505,6 @@ header nav ul li a:hover {
 /* stats */
 
 .stats {
-    padding-top: var(--section-padding);
-    padding-bottom: var(--section-padding);
     text-align: center;
     background-image: url("../images/eagle.png");
     background-size: cover;
@@ -567,11 +559,6 @@ header nav ul li a:hover {
 
 /* Skills */
 
-.our-skills {
-    padding-top: var(--section-padding);
-    padding-bottom: var(--section-padding);
-}
-
 .our-skills .container {
     display: flex;
     justify-content: space-between;
@@ -587,7 +574,7 @@ header nav ul li a:hover {
 }
 
 .our-skills .container>div>p {
-    color: #777;
+    color: var(--secondry-font-color);
     line-height: 2;
     text-align: center;
     margin-bottom: 60px;
@@ -612,7 +599,7 @@ header nav ul li a:hover {
 }
 
 .our-skills .testimonials .content .text p {
-    color: #777;
+    color: var(--secondry-font-color);
     text-align: right;
     font-size: 14px;
     margin-bottom: 10px;
@@ -682,8 +669,6 @@ header nav ul li a:hover {
 /* Quote */
 
 .quote {
-    padding-top: var(--section-padding);
-    padding-bottom: var(--section-padding);
     background-image: url("../images/penguin.avif");
     text-align: center;
     background-size: cover;
@@ -713,11 +698,6 @@ header nav ul li a:hover {
 
 
 /* Pricing */
-
-.pricing {
-    padding-top: var(--section-padding);
-    padding-bottom: var(--section-padding);
-}
 
 .pricing .plans {
     display: grid;
@@ -815,8 +795,6 @@ header nav ul li a:hover {
 /* Subscribe */
 
 .subscribe {
-    padding-top: var(--section-padding);
-    padding-bottom: var(--section-padding);
     background-image: url("../images/subscribe.jpg");
     background-size: cover;
     position: relative;
@@ -890,11 +868,6 @@ header nav ul li a:hover {
 
 /* Contact */
 
-.contact {
-    padding-top: var(--section-padding);
-    padding-bottom: var(--section-padding);
-}
-
 .contact .content {
     display: flex;
     justify-content: space-between;
@@ -945,7 +918,7 @@ header nav ul li a:hover {
 
 .contact .content .info .phone {
     display: block;
-    color: #777;
+    color: var(--secondry-font-color);
     margin-bottom: 10px;
     font-size: 14px;
 }
@@ -955,7 +928,7 @@ header nav ul li a:hover {
 }
 
 .contact .content .info address {
-    color: #777;
+    color: var(--secondry-font-color);
     font-size: 14px;
     line-height: 1.8;
 }
