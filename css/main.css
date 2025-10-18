@@ -20,7 +20,6 @@
 
 /* Prevent any horizontal overflow */
 html, body {
-    overflow-x: hidden;
     width: 100%;
 }
 
@@ -1683,4 +1682,5 @@ select.input-error,
     .pricing .plans {
         grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     }
+
 }
