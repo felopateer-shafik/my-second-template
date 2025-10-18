@@ -37,6 +37,7 @@ body {
     font-family: "Open Sans", sans-serif;
     width: 100%;
     position: relative;
+    overflow-x: hidden;
 }
 
 ul {
@@ -1684,3 +1685,4 @@ select.input-error,
     }
 
 }
+
